@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap");
+
+/* Nav styling */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  text-align: center;
+}
+
+nav ul li {
+  border-bottom: 1px solid #888;
+}
+
+nav li a {
+  color: #808080;
+  font-family: "Lexend", sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s color;
+}
+
+li:hover a {
+  color: white !important;
+}
+
+@media screen and (min-width: 600px) {
+  nav li a {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+}
+
+/* Body styling */
+.body {
+  width: 800px;
+  margin: auto;
+}
+
+.city_list_item {
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+}
+
+.city_list_item a {
+  text-decoration: none;
+  color: #333;
+}
