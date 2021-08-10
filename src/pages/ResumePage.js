@@ -8,7 +8,7 @@ const ResumePage = () => {
       </h1>
       <h3>
         <a
-          href="https://github.com/walterogozaly/walterogozaly.github.io/raw/main/Walter_Ogozaly_Resume.pdf"
+          href="https://github.com/walterogozaly/walter_ogozaly_resume/raw/main/Walter_Ogozaly_Resume.pdf"
           download="Walter_Ogozaly_Resume.pdf"
         >
           Download PDF
