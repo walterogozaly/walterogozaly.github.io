@@ -1,13 +1,21 @@
 import React from "react";
-import CityList from "../components/CityList";
+import ArticleList from "../components/ArticleList";
+import articles from "./article-content";
 
 const HomePage = () => {
   return (
     <>
-      <h1>LinkedIn Job Postings in Major American Cities</h1>
-      <h2>Compare the number of job postings by city and by keyword</h2>
-      <input type="text" />
-      <CityList />
+      <h1>
+        <b>Walter Ogozaly's Data Blog</b>
+      </h1>
+      <h4>
+        A place to highlight my work and document what I'm learning and doing.
+      </h4>
+      <hr />
+      <h1>
+        <b>Articles</b>
+      </h1>
+      <ArticleList articles={articles} />
     </>
   );
 };

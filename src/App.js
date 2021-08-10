@@ -1,11 +1,13 @@
 import "./App.css";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import SingleCityPage from "./pages/SingleCityPage";
 import AboutPage from "./pages/AboutPage";
-import OverviewPage from "./pages/OverviewPage";
-import ComparisonPage from "./pages/ComparisonPage";
 import NavBar from "./components/NavBar";
+import ResumePage from "./pages/ResumePage";
+import ContactPage from "./pages/ContactPage";
+import ArticlePage from "./pages/ArticlePage";
+import NotFoundPage from "./pages/NotFoundPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -13,15 +15,16 @@ function App() {
       <div className="App">
         <NavBar />
         <div className="body">
-          <Route path="/" component={HomePage} exact />
-          <Route path="/about" component={AboutPage} />
-          <Route path="/city/:name" component={SingleCityPage} />
-          <Route path="/overview" component={OverviewPage} />
-          <Route
-            path="/compare/:cityname1/:cityname2"
-            component={ComparisonPage}
-          />
+          <Switch>
+            <Route path="/" component={HomePage} exact />
+            <Route path="/about" component={AboutPage} />
+            <Route path="/resume" component={ResumePage} />
+            <Route path="/contactme" component={ContactPage} />
+            <Route path="/article/:name" component={ArticlePage} />
+            <Route component={NotFoundPage} />
+          </Switch>
         </div>
+        <Footer />
       </div>
     </Router>
   );

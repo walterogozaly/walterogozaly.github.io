@@ -1,60 +1,141 @@
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@700&display=swap");
-
-/* Nav styling */
-nav ul {
-  list-style-type: none;
+/* This first section is a simple "reset". It allows the navbar to push up against the top of the browser window with no white space around it.  */
+html,
+body,
+div,
+ul,
+li {
   margin: 0;
   padding: 0;
-  background-color: #333;
-  text-align: center;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
 }
 
-nav ul li {
-  border-bottom: 1px solid #888;
+h1,
+h2,
+h3,
+h4,
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
 }
 
-nav li a {
-  color: #808080;
-  font-family: "Lexend", sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  text-decoration: none;
+.article_title {
+  margin-bottom: 6px;
+}
+
+.article_title:hover {
+  color: #db9d47;
+  transition: background 0.3s;
+}
+
+.contact-info p {
+  font-size: 1.5rem;
+}
+
+.icon-links {
   display: block;
-  transition: 0.3s color;
 }
 
-li:hover a {
-  color: white !important;
+.icon-link {
+  margin-right: 2rem;
 }
 
-@media screen and (min-width: 600px) {
-  nav li a {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
-
-  nav li {
-    display: inline-block;
-  }
+.emoji {
+  font-size: 2.5rem;
+  margin-right: 1.5rem;
 }
 
 /* Body styling */
 .body {
   width: 800px;
   margin: auto;
+  min-height: 90vh;
 }
 
-.city_list_item {
-  width: 150px;
+iframe {
+  width: 100%;
+  height: 800px;
+}
+
+/* This class is applied to the containing div <div class="nav"> and is used to set the background color and height of the navbar */
+.nav {
+  background: #000;
+  height: 60px; /* set same as height & line-height below */
+}
+
+nav {
+  width: 800px;
+  margin: auto;
+}
+
+/* This rule centers the nav items verticaly in the bar with the height and line height properties. Spacing between the nav items is controlled by setting right and left padding.  */
+.nav li {
   display: inline-block;
-  text-align: center;
+  list-style: none;
+  height: 60px; /* should be the same as line-height */
+  line-height: 60px; /* should be the same as height */
+  padding: 0; /* "0" sets top and bottom padding to none */
 }
 
-.city_list_item a {
+.nav li a {
+  margin: 0px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 0 40px;
+}
+
+/* :hover allows you change the background color of the nav items when you mouse over them. Play around with the transition value to change the speed of the hover transition. */
+.nav li:hover {
+  background: #a1c7b6;
+  transition: background 0.3s;
+}
+
+.nav li:hover a {
+  color: black;
+}
+/* This rule is applied to the link <a> tag. It lets you turn off the link underline and set the link text color. */
+.nav-link {
+  color: #fff;
   text-decoration: none;
-  color: #333;
+}
+
+.article_link {
+  text-decoration: none;
+  color: black;
+}
+
+.author {
+  text-decoration: none;
+  color: #db9d47;
+  font-weight: 150;
+}
+
+.article-info-container {
+  padding-bottom: 1.2rem;
+}
+
+#footer {
+  background-color: #212121;
+  height: 60px;
+  bottom: 0px;
+  left: 0px;
+  line-height: 50px;
+  color: #aaa;
+  text-align: center;
+  width: 100%;
+}
+
+.image--cover {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 20px;
+
+  object-fit: cover;
+  object-position: center;
 }
