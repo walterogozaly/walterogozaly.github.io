@@ -103,6 +103,10 @@ nav {
   padding: 0; /* "0" sets top and bottom padding to none */
 }
 
+img {
+  width: 50%;
+}
+
 .nav li a {
   margin: 0px;
   display: block;
