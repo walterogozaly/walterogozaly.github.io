@@ -36,7 +36,10 @@ const articles = [
         fields of coal spoil tips (coal is obviously not carbon-neutral
         overall).
       </p>,
-      <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Coal_waste_pile_west_of_Trevorton%2C_Pennsylvania_far_shot_2.JPG" />,
+      <img
+        className="article-img"
+        src="https://upload.wikimedia.org/wikipedia/commons/2/21/Coal_waste_pile_west_of_Trevorton%2C_Pennsylvania_far_shot_2.JPG"
+      />,
       <p>
         Local impacts like the creation of coal spoil tips are certainly not
         desirable. They are tolerable to most, though, in the context of a world

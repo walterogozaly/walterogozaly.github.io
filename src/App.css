@@ -103,7 +103,7 @@ nav {
   padding: 0; /* "0" sets top and bottom padding to none */
 }
 
-img {
+.article-img {
   width: 50%;
 }
 
