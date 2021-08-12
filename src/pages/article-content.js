@@ -3,19 +3,88 @@
 const articles = [
   {
     name: "lithium-ion-impacts",
-    title: "How bad are electric cars (and lithium-ion batteries) for the environment?",
+    title:
+      "How bad are electric cars (and lithium-ion batteries) for the environment?",
     date: "August 11, 2021",
     author: "Walter Ogozaly",
     tags: ["recreational"],
     content: [
       <p>
-      Over the past year or so, it’s become more common among the people I read 
-      and talk with to express some hesitation about the environmental impacts of lithium 
-      mining. This is most common when talking about electric cars, but lithium-ion battery 
-      technology is in demand across the economy on account of its high energy density,
-      competitive cost, and safety/reliability.
+        Over the past year or so, it’s become more common among the people I
+        read and talk with to express some hesitation about the environmental
+        impacts of lithium mining. This is most common when talking about
+        electric cars, but lithium-ion battery technology is in demand across
+        the economy on account of its high energy density, competitive cost, and
+        safety/reliability.
       </p>,
-      ],
+      <p>
+        I wanted to know whether the impacts of lithium-ion electric cars are
+        more local or global in scale. I suspected that the discourse around the
+        issue was getting more pessimistic than is warranted, perhaps due to
+        commentators who undervalue growth and therefore dismiss certain
+        tradeoffs that I would accept.
+      </p>,
+      <p>
+        Though the difference between the two is sometimes obscured, there is a
+        great disparity between environmental damage at a local versus a global
+        scope. Local damage may disrupt wildlife, uproot previously undisturbed
+        forest, or cut deep gashes into the Earth—but its impacts do not
+        directly exacerbate the global climate crisis (set aside minor details
+        like deforestation of small amounts of land). During my childhood in
+        Northeastern Pennsylvania, heart of the former anthracite coal industry,
+        the road to Grandma’s cut through one such example of local damage:
+        fields of coal spoil tips (coal is obviously not carbon-neutral
+        overall).
+      </p>,
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Coal_waste_pile_west_of_Trevorton%2C_Pennsylvania_far_shot_2.JPG" />,
+      <p>
+        Local impacts like the creation of coal spoil tips are certainly not
+        desirable. They are tolerable to most, though, in the context of a world
+        growing more prosperous overall. On the other hand, the impact of more
+        widespread or global damage, primarily global warming, makes such damage
+        unacceptable. It’s valuable to know which category of environmental
+        impacts we’re talking about when we talk about electric cars.
+      </p>,
+      <p>
+        <b>Cobalt</b>
+      </p>,
+      <p>
+        Cobalt, of which a majority is sourced from the Democratic Republic of
+        the Congo, is part of the NCA (nickel, cobalt, and aluminum) metal oxide
+        that is accommodating of lithium and stabilizes it.
+      </p>,
+      <p>
+        Nickel and cobalt are transition metals. They are very easy-come-easy-go
+        with their electrons, whereas lithium has a high tendency to lose its
+        electron. When a power source is applied to charge the lithium-ion
+        battery, the electrons from this stable side of the battery are shuttled
+        to the other side. Following their cue, the lithium leaves its stable
+        oxide home and passes through a no-electrons-permitted barrier
+        separating the two sides of the battery.
+      </p>,
+      <p>
+        Once the power is turned off, this unstable state of affairs reverses
+        itself. The lithium passes through the central layer and returns back to
+        the oxide. The electrons flow back as well but must take the outside
+        path, aka a wire, and that flow is electricity.
+      </p>,
+      <p>
+        The trouble is that while you can reduce the proportion of cobalt in the
+        NCA oxide mixture, which has been done already, you can’t get rid of it
+        completely. Cobalt has a stabilizing effect on nickel which helps
+        prevent cathode erosion and overheating. Overheating can ruin the
+        no-electrons-permitted barrier and cause the battery to explode.
+      </p>,
+      <p>
+        The necessity of cobalt, combined with the DRC’s stranglehold on supply
+        and the impossibility of tracking who mined every piece of exported
+        cobalt practically guarantees that some of it is obtained by child or
+        slave labor.
+      </p>,
+      <p>
+        <b>This post is in-progress.</b>
+      </p>,
+    ],
   },
   {
     name: "uf-models",
