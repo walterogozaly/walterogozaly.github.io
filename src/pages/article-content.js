@@ -2,6 +2,22 @@
 
 const articles = [
   {
+    name: "lithium-ion-impacts",
+    title: "How bad are electric cars (and lithium-ion batteries) for the environment?",
+    date: "August 11, 2021",
+    author: "Walter Ogozaly",
+    tags: ["recreational"],
+    content: [
+      <p>
+      Over the past year or so, it’s become more common among the people I read 
+      and talk with to express some hesitation about the environmental impacts of lithium 
+      mining. This is most common when talking about electric cars, but lithium-ion battery 
+      technology is in demand across the economy on account of its high energy density,
+      competitive cost, and safety/reliability.
+      </p>,
+      ],
+  },
+  {
     name: "uf-models",
     title: "University of Florida Advancement — Modeling Team",
     date: "April 16, 2021",
@@ -78,33 +94,6 @@ const articles = [
     content: [
       `In this article, we're going to be talking looking at a very quick way
             to set up a Node.js server. We'll be discussing some topics such as proin congue
-            ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
-            Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
-            non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
-            eleifend ut ipsum non fringilla. Praesent imperdiet nulla nec est luctus, at 
-            sodales purus euismod.`,
-      `Donec vel mauris lectus. Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-      `Etiam nec lectus urna. Sed sodales ultrices dapibus. 
-            Nam blandit tristique risus, eget accumsan nisl interdum eu. Aenean ac accumsan 
-            nisi. Nunc vel pulvinar diam. Nam eleifend egestas viverra. Donec finibus lectus 
-            sed lorem ultricies, eget ornare leo luctus. Morbi vehicula, nulla eu tempor 
-            interdum, nibh elit congue tellus, ac vulputate urna lorem nec nisi. Morbi id 
-            consequat quam. Vivamus accumsan dui in facilisis aliquet.`,
-    ],
-  },
-  {
-    name: "my-thoughts-on-resumes",
-    title: "My Thoughts on Resumes",
-    date: "April 16, 2021",
-    author: "Walter Ogozaly",
-    content: [
-      `Today is the day I talk about something which scares most people: resumes.
-            In reality, I'm not sure why people have such a hard time with proin congue
             ligula id risus posuere, vel eleifend ex egestas. Sed in turpis leo. 
             Aliquam malesuada in massa tincidunt egestas. Nam consectetur varius turpis, 
             non porta arcu porttitor non. In tincidunt vulputate nulla quis egestas. Ut 
