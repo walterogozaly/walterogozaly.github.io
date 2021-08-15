@@ -14,8 +14,7 @@ const articles = [
         cases that other modes of transit, like high-speed rail, serve poorly.
         High-speed rail is great, but it's not how anyone gets from New York to
         San Francisco (nor should it be). The total distance of that trip is
-        ~2400 miles. That's as far as Beijing is from New Delhi or as far as
-        Lisbon is from Moscow.
+        ~2400 miles. That's as far as Beijing to New Delhi or Lisbon to Moscow.
       </p>,
       <p>
         With possible exceptions for Canada and Australia, the United States is
@@ -37,7 +36,7 @@ const articles = [
         <a href="https://ourworldindata.org/co2-emissions-from-aviation">
           Our World in Data article
         </a>{" "}
-        which outlined the challenges:
+        which outlined the challenges of making flight green:
       </p>,
       <>
         <p>
@@ -52,9 +51,92 @@ const articles = [
         <p>
           - Batteries are way too heavy to do the job, at least for now. The
           battery planes that currently exist have frankly terrible capacity,
-          speed, and range.
+          speed, and{" "}
+          <a href="https://www.bbc.com/future/article/20200617-the-largest-electric-plane-ever-to-fly">
+            range
+          </a>
+          .
         </p>
       </>,
+      <p>
+        There are two technologies that have emerged as serious contenders for
+        decarbonizing planes: hydrogen fuel and synthesized jet fuel. Both aim
+        to achieve carbon neutrality without sacrificing fuel density, but
+        neither is perfect. Both are uncompetitive due to the cost of
+        electricity.
+      </p>,
+      <p>
+        Hydrogen fuel releases only water when consumed, but it is a bear to
+        store and transport. The larger barrier to competitiveness, however, is
+        just how much electricity is required to make it.{" "}
+        <a href="https://www.spglobal.com/platts/en/market-insights/latest-news/electric-power/112020-green-hydrogen-costs-need-to-fall-over-50-to-be-viable-sampp-global-ratings">
+          The renewable energy powering the process is responsible for 60% of
+          its cost.
+        </a>
+      </p>,
+      <p>
+        Synthesized jet fuel technically pollutes as much as any other jet fuel,
+        but it's made differently: CO2 captured from the atmosphere is combined
+        with hydrogen to produce a hydrocarbon fuel. The use of carbon-capture
+        technology to obtain the CO2 for the fuel results in a 1:1 offset of
+        emissions. Although it is carbon-neutral, it feels less "green" on its
+        face, and sits less well with the climate left. It is quite compatible
+        with the existing fleet of planes but it has the same crippling
+        electricity costs as hydrogen.
+      </p>,
+      <p>
+        Fuel is only{" "}
+        <a href="https://www.investopedia.com/ask/answers/040715/what-are-major-expenses-affect-companies-airline-industry.asp#:~:text=Cost%20of%20Fuel%20for%20Airlines,it%20into%20a%20fixed%20expense.">
+          10-12%
+        </a>{" "}
+        of an airline's operating expenses (and therefore your ticket price), so
+        there's an argument to be made that the government should just step in
+        already and either tax or subsidize so as to make renewable fuel the
+        cheaper option. I think Republicans will control at least one branch of
+        government for most of the next decade and block anything like this,
+        leaving us to market forces, but your opinion may vary. If we <i>are</i>{" "}
+        left to market forces, the amount of emissions reduction we achieve will
+        largely be tethered to the cost of (renewable) electricity.
+      </p>,
+      <p>
+        As I continued to read over the summer, I noticed more innovations that
+        were ready to deploy and scale but for the cost of electricity. It seems
+        there is plenty of innovation patiently lurking at a price point higher
+        than the market can support, with electricity the chief culprit. The
+        cost of desalination is{" "}
+        <a href="https://www.technologyreview.com/2014/12/03/170231/how-can-desalination-become-cheaper/">
+          driven by the high electrical demand of pushing water through a
+          filter, aka reverse osmosis.
+        </a>{" "}
+        Steelmaking, responsible for 7-9% of human-made greenhouse gas emissions
+        (with growing demand), could{" "}
+        <a href="https://cen.acs.org/environment/green-chemistry/steel-hydrogen-low-co2-startups/99/i22">
+          slash its emissions with cheap electricity and respectively lower
+          hydrogen costs.
+        </a>
+      </p>,
+      <p>
+        <b>Promising reductions in the cost of renewable electricity</b>
+      </p>,
+      <p>
+        There are reasons to be optimistic about the prospect of lowering
+        electricity prices. The cost of wind power has been steadily falling,
+        and the cost of solar photovoltaics has{" "}
+        <a href="https://ourworldindata.org/cheap-renewables-growth">
+          plummeted
+        </a>
+        . The other conventional renewables are struggling to come down in
+        price.
+      </p>,
+      <p>
+        Fusion could bring about a generational change in how we think about
+        electricity, but the process can{" "}
+        <a href="https://en.wikipedia.org/wiki/Fusion_energy_gain_factor">
+          not yet produce more power than it requires.
+        </a>{" "}
+        I find it difficult to settle on an opinion of fusion's prospects over
+        the next 20 years, but I want to hope.
+      </p>,
     ],
   },
   {

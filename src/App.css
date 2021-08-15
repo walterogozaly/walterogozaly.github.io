@@ -36,11 +36,15 @@ li {
   }
 }
 
+p {
+  font-family: "Georgia", serif;
+  font-weight: 100;
+}
+
 h1,
 h2,
 h3,
-h4,
-p {
+h4 {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
 }
