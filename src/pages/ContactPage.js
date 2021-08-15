@@ -2,6 +2,7 @@ import React from "react";
 import kaggle_logo from "../assets/kaggle_icon.png";
 import twitter_logo from "../assets/twitter_icon.png";
 import linkedin_logo from "../assets/linkedin_icon.png";
+import github_logo from "../assets/github_icon.png";
 
 const ContactPage = () => {
   return (
@@ -23,6 +24,9 @@ const ContactPage = () => {
           </a>
           <a href="https://www.kaggle.com/walterogozaly" className="icon-link">
             <img src={kaggle_logo} />
+          </a>
+          <a href="https://github.com/walterogozaly" className="icon-link">
+            <img src={github_logo} />
           </a>
         </div>
         <p>
