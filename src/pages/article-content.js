@@ -4,7 +4,7 @@ const articles = [
   {
     name: "make-electricity-better",
     title: "I can't stop thinking about the price of electricity",
-    date: "August 14, 2021",
+    date: "August 15, 2021",
     author: "Walter Ogozaly",
     tags: ["recreational"],
     content: [
@@ -66,7 +66,7 @@ const articles = [
         electricity.
       </p>,
       <p>
-        Hydrogen fuel releases only water when consumed, but it is a bear to
+        Hydrogen fuel releases only water when consumed, but it's a bear to
         store and transport. The larger barrier to competitiveness, however, is
         just how much electricity is required to make it.{" "}
         <a href="https://www.spglobal.com/platts/en/market-insights/latest-news/electric-power/112020-green-hydrogen-costs-need-to-fall-over-50-to-be-viable-sampp-global-ratings">
@@ -135,7 +135,15 @@ const articles = [
           not yet produce more power than it requires.
         </a>{" "}
         I find it difficult to settle on an opinion of fusion's prospects over
-        the next 20 years, but I want to hope.
+        the next 20 years and resign myself to following the breadcrumbs of
+        startups like <a href="https://tae.com/">TAE Technologies</a> in SoCal
+        and <a href="https://cfs.energy/">Commonwealth Fusion</a> in Cambridge.
+      </p>,
+      <p>
+        That's where I'll leave it for now. I'm sure energy costs influence many
+        more sectors than the few I mentioned. The subject deserves a deeper
+        treatment than I can give. Suffice to say it's fascinating to think and
+        write about.
       </p>,
     ],
   },
