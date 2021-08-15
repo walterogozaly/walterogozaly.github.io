@@ -7,6 +7,7 @@ import ResumePage from "./pages/ResumePage";
 import ContactPage from "./pages/ContactPage";
 import ArticlePage from "./pages/ArticlePage";
 import NotFoundPage from "./pages/NotFoundPage";
+import ProjectPage from "./pages/ProjectPage";
 import Footer from "./components/Footer";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/resume" component={ResumePage} />
             <Route path="/contactme" component={ContactPage} />
             <Route path="/article/:name" component={ArticlePage} />
+            <Route path="/projects" component={ProjectPage} />
             <Route component={NotFoundPage} />
           </Switch>
         </div>
