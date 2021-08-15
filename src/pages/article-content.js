@@ -13,9 +13,9 @@ const articles = [
         flying carbon neutral. Flying is really convenient and has genuine use
         cases that other modes of transit, like high-speed rail, serve poorly.
         High-speed rail is great, but it's not how anyone gets from New York to
-        San Francisco (nor should it be). The total distance is ~2400 miles.
-        That's as far as Beijing is from New Delhi, or as far as Lisbon is from
-        Moscow.
+        San Francisco (nor should it be). The total distance of that trip is
+        ~2400 miles. That's as far as Beijing is from New Delhi or as far as
+        Lisbon is from Moscow.
       </p>,
       <p>
         With possible exceptions for Canada and Australia, the United States is
@@ -25,14 +25,36 @@ const articles = [
         States, but major cities are rarely more than 1200 miles from any other
         major city and any regions further off are less developed and populated.
         This difference is mainly attributable to the US's unique bicoastal
-        nature: no other country straddles two bodies of water quite like we do.
+        nature: no other country straddles two oceans quite like we do.
+        Connecting our two hub regions, then, is going to mean a lot of flying.
       </p>,
       <p>
-        So the US's unique geography will keep it more reliant on flight than
-        almost any other country, even as those countries become higher-income
-        and and start flying more.
+        That lead me to a{" "}
+        <a href="https://kleinmanenergy.upenn.edu/news-insights/decarbonizing-aviation-is-not-as-hard-as-we-think/">
+          Kleinman Center for Energy Policy report
+        </a>{" "}
+        and an{" "}
+        <a href="https://ourworldindata.org/co2-emissions-from-aviation">
+          Our World in Data article
+        </a>{" "}
+        which outlined the challenges:
       </p>,
-      <p></p>,
+      <>
+        <p>
+          - Aviation is currently responsible for 2.5% of global emissions but
+          3.5% of warming. The disparity is due in large part to contrails
+          (water vapor emissions), which have a heating effect on the atmoshere.
+        </p>
+        <p>
+          - Much of the world is just becoming wealthy enough to fly and there
+          will be ~3x the demand by 2050.
+        </p>
+        <p>
+          - Batteries are way too heavy to do the job, at least for now. The
+          battery planes that currently exist have frankly terrible capacity,
+          speed, and range.
+        </p>
+      </>,
     ],
   },
   {
