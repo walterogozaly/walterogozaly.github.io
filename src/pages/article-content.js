@@ -2,6 +2,40 @@
 
 const articles = [
   {
+    name: "make-electricity-better",
+    title: "I can't stop thinking about the price of electricity",
+    date: "August 14, 2021",
+    author: "Walter Ogozaly",
+    tags: ["recreational"],
+    content: [
+      <p>
+        Earlier this summer, I got curious about how hard it would be to make
+        flying carbon neutral. Flying is really convenient and has genuine use
+        cases that other modes of transit, like high-speed rail, serve poorly.
+        High-speed rail is great, but it's not how anyone gets from New York to
+        San Francisco (nor should it be). The total distance is ~2400 miles.
+        That's as far as Beijing is from New Delhi, or as far as Lisbon is from
+        Moscow.
+      </p>,
+      <p>
+        With possible exceptions for Canada and Australia, the United States is
+        the only country to have its two largest economic regions (New York and
+        California) so far apart from one another. China, India, Brazil, and the
+        EU all have economic cores that are about the size of the eastern United
+        States, but major cities are rarely more than 1200 miles from any other
+        major city and any regions further off are less developed and populated.
+        This difference is mainly attributable to the US's unique bicoastal
+        nature: no other country straddles two bodies of water quite like we do.
+      </p>,
+      <p>
+        So the US's unique geography will keep it more reliant on flight than
+        almost any other country, even as those countries become higher-income
+        and and start flying more.
+      </p>,
+      <p></p>,
+    ],
+  },
+  {
     name: "lithium-ion-impacts",
     title:
       "How bad are electric cars (and lithium-ion batteries) for the environment?",
