@@ -9,14 +9,17 @@ const AboutPage = () => {
       </h1>
       <img src={profilePhoto} className="image--cover" />
       <p>
-        Master's graduate in Information Systems and Operations Management. I'm
-        passionate about data and the internet, and optimistic about building a
-        better future with them. Outside of work, I like biking, audiobooks, and
-        walkable neighborhoods. Right now I'm working on analysis of open data
-        sets, building web apps with React JS, and studying for the AWS Cloud
-        Practitioner certification.
+        Hi! I'm Walter. I'm a Master's graduate in Information Systems and
+        Operations Management. I'm passionate about interpreting data and using
+        new tools to do business better. Right now I'm working on an analysis of
+        bike share data in Chicago, IL. I also like learning about web
+        development (ReactJS) and I'm studying for the AWS Cloud Practitioner
+        certification.
       </p>
-      <p></p>
+      <p>
+        Outside of work, I like biking, podcasts/audiobooks, and walkable
+        neighborhoods.
+      </p>
     </div>
   );
 };
