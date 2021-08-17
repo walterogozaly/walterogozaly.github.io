@@ -11,19 +11,40 @@ const articles = [
       <p>
         Tableau is a great business intelligence tool that makes seamless
         visualizations and dashboards much easier to create. The drag and drop
-        workflow is quite pleasantly uncomplicated. Let's take a look at some of
+        workflow is quite pleasantly simple. Let's take a look at some of
         Tableau's best use cases, as well as how it might fit into a business's
         workflow. My university email is still active (#goGators!) so I'll be
         accessing Tableau through their subscription.
       </p>,
       <p>
-        <b>((Use Case #1))</b>
-      </p>,
-      <p>((Explanation of use case with photos))</p>,
-      <p>
         <b>Live Analytics with Tableau Server</b>
       </p>,
-      <p></p>,
+      <p>
+        As I work with data and tech more, I've come to increasingly respect the
+        power of data pipelines. A thoughtfully designed data pipeline is the
+        difference between a static visual and a live, interactive online
+        dashboard. Pipelines address the human need to be engaged, to know and
+        respond rapidly to change, and to access information from anywhere. They
+        also often address a business's real needs best (and they're pretty cool
+        to boot).
+      </p>,
+      <p>
+        Connecting high-level components of your business can be personally
+        satisfying and empowering, as corny as that may sound. The first time I
+        created a server-hosted database and connected it to a React front end,
+        I really felt how the utility of both tools was now greater than the sum
+        of its parts. Hosting a linked database and front end is essentially the
+        bones of a small business, which is also pretty cool to think about. We
+        can observe how successful products like those of AWS have become just
+        by making connections easier to set up and maintain.
+      </p>,
+      <p>
+        Fo medium to large businesses that need their teams atuned to business
+        indicators, Tableau Server seems like a great option.
+      </p>,
+      <p>
+        <b>Post in progress...</b>
+      </p>,
     ],
   },
   {
