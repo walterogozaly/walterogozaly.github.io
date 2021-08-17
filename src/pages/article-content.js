@@ -2,6 +2,31 @@
 
 const articles = [
   {
+    name: "tableau-dashboards",
+    title: "Exploring Tableau's best functions",
+    date: "August 17, 2021",
+    author: "Walter Ogozaly",
+    tags: ["portfolio"],
+    content: [
+      <p>
+        Tableau is a great business intelligence tool that makes seamless
+        visualizations and dashboards much easier to create. The drag and drop
+        workflow is quite pleasantly uncomplicated. Let's take a look at some of
+        Tableau's best use cases, as well as how it might fit into a business's
+        workflow. My university email is still active (#goGators!) so I'll be
+        accessing Tableau through their subscription.
+      </p>,
+      <p>
+        <b>((Use Case #1))</b>
+      </p>,
+      <p>((Explanation of use case with photos))</p>,
+      <p>
+        <b>Live Analytics with Tableau Server</b>
+      </p>,
+      <p></p>,
+    ],
+  },
+  {
     name: "make-electricity-better",
     title: "I can't stop thinking about the price of electricity",
     date: "August 15, 2021",
